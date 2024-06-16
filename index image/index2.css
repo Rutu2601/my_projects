@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 40px;
+    margin-left: 15%;
+}
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('C:/Users/rituraj/Pictures/img 6.webp') no-repeat center center/cover;
+    filter: blur(10px);
+    opacity: 0.75;
+    z-index: -1;
+}
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.login-box h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 10%;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 3%  ;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.input-group label {
+    position: absolute;
+    top: 50%;
+    margin-bottom: 5%;
+    transform: translateY(-50%);
+    color: #8c8c8c;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown) + label {
+    top: 0;
+    transform: translateY(-100%);
+    font-size: 12px;
+    color: #bbb;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f6121d;
+}
+
+.help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.help a {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+
+.signup-now {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-now a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
