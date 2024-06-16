@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 35px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-image: url('https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg');
+    opacity: 90%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 60px;
+    text-align: center;
+}
+.hero-text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    padding: 20px 0;
+}
+
+.card {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.card img {
+    width: 150px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.text h1{
+    font-size: 4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20% ;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+.text p{
+    font-size: 1rem;
+    margin-left: 20%;
+}
+.img{
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.container img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.container .text {
+    margin-left: 20px;
+    margin-bottom: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.footer .column {
+    margin: 70px;
+}
+.footer .column a {
+    display: block;
+    color: #999;
+    text-decoration: none;
+    margin: 5px 0;
+    margin-top: 5%;
+}
+.footer .column a:hover {
+    color: #999;
+}
+.footer .contact {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.language {
+    margin-left: 13%;
+}
